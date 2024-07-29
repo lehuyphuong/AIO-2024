@@ -14,8 +14,8 @@ def compute_eigenvalues_eigenvectors(matrix):
 
 
 if __name__ == "__main__":
-    A = [[0.9, 0.2],
-         [0.1, 0.8]]
+    A = [[4, 1],
+         [2, 3]]
 
     result = compute_eigenvalues_eigenvectors(A)
     print(result)

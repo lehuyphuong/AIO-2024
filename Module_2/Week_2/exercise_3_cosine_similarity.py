@@ -21,8 +21,8 @@ def compute_cosine(v1, v2):
 
 
 if __name__ == "__main__":
-    x = np.array([1, 2, 3, 4])
-    y = np.array([1, 0, 3, 0])
+    x = np.array([1, 2, 3])
+    y = np.array([4, 5, 6])
 
     result = compute_cosine(x, y)
     print(result)
