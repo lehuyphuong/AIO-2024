@@ -37,8 +37,8 @@ if __name__ == "__main__":
     compute_vector_length_result = compute_vector_length(vector)
     print(compute_vector_length_result)
 
-    v1 = np.array([0, 1, -1, 2])
-    v2 = np.array([2, 5, 1, 0])
+    v1 = np.array([1, 2, 3])
+    v2 = np.array([4, 5, 6,])
     compute_dot_product_result = compute_dot_product(v1, v2)
     print(compute_dot_product_result)
 
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     matrix_multi_matrix_result = matrix_multi_matrix(m1, m2)
     print(matrix_multi_matrix_result)
 
-    m1 = np.array([[-2, 6],
-                   [8, -4]])
+    m1 = np.array([[1, 2],
+                   [3, 4]])
     inverse_matrix_result = inverse_matrix(m1)
     print(inverse_matrix_result)
